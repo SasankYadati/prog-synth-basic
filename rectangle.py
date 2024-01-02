@@ -83,7 +83,7 @@ if __name__ == '__main__':
     if res is not None:
         print(res)
 
-    synthesizer = get_synthesizer(better_writer2, is_correct, 1000) 
+    synthesizer = get_synthesizer(even_better_writer, is_correct, 1000) 
     res = synthesizer(spec1)
     if res is not None:
         print(res)
